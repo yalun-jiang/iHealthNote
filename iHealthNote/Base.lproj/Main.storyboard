@@ -62,7 +62,7 @@
         <!--View Controller-->
         <scene sceneID="ys5-eG-VUR">
             <objects>
-                <viewController id="BN4-Vf-1Mn" sceneMemberID="viewController">
+                <viewController id="BN4-Vf-1Mn" customClass="ViewController" customModule="iHealthNote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dWY-ep-Rhk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
