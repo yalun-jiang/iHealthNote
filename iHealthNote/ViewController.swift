@@ -9,7 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var AccountTextField: UITextField!
+    
+    @IBOutlet weak var PasswordTextField: UITextField!
+    
+    @IBAction func LoginButtonClicked(_ sender: Any) {
+        let account = AccountTextField.text
+        let passeord = PasswordTextField.text
+        
+        print("account:\(account);password:\(passeord)")
+        
+        self.performSegue(withIdentifier: "moveToMainViewSegue", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
